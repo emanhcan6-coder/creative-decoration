@@ -1,6 +1,8 @@
 # creative-decoration
 Ölmalerei und Trompe-l’œil für Dich und als Geschenk
+
 Carla Denecke
+
 Geboren in den frühen 50ern in Rathenow, dort aufgewachsen, Abitur und erstes Hochschulstudium (Wirtschaftsrecht in Leipzig), einige Jahre Berufstätigkeit in einem Berliner Großbetrieb. Ende der 70er Rückzug in die «private Nische», diverse Jobs sowie Entwurf und Verkauf selbstgefertigter Kleidung.
 
 1984 Ausreise mit der Familie nach West-Berlin, Studium (Geschichte und Philologie) an der TU Berlin.
