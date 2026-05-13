@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>D&N-Chronograph</title>
+
+    <link rel="stylesheet" href="style.css">
+    <script>
+        if ('serviceWorker' in navigator) {
+          navigator.serviceWorker
+            .register('service-worker.js')
+            .then(function (reg) {
+              console.log('Registration successful: ' + reg.scope);
+            })
+            .catch(function (err) {
+              console.error('Registration failed: ' + err);
+            });
+        }
+  </script>
+<link rel="manifest" href="manifest.json" />
+</head>
+
+<body>
+    <div class="clock">
+        <div class="daylenght">
+            <div class="dl" id="dl">08 Std. 55 Min.</div>
+        </div>
+        <div class="grdrng">
+            <div class="grg" id="grg"></div>
+        </div>
+        <div class="sunrse">
+            <div class="snrs" id="snrs"></div>
+        </div>
+        <div class="sunset">
+            <div class="snst" id="snst"></div>
+        </div>
+
+        <div class="hour">
+            <div class="hr" id="hr"></div>
+        </div>
+        <div class="zeitsunr">
+            <div class="sr" id="sr">04:50</div>
+        </div>
+        <div class="zeitsunst">
+            <div class="sst" id="sst">04:50</div>
+        </div>
+        <div class="min">
+            <div class="mn" id="mn"></div>
+        </div>
+        <div class="sec">
+            <div class="sc" id="sc"></div>
+        </div>
+
+    </div>
+    <script type="text/javascript" src="script.js"></script>
+    <script type="text/javascript" src="suncalc.js"></script>
+</body>
+
+</html>
